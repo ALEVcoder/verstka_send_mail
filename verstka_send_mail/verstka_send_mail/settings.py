@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%iy455w5y2_nn7(5vk3r(nd)@*9m*48s)446z08n-$52!rheh8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -123,7 +123,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'files')
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = '/home/verstkasendmailalevcoder/verstka_send_mail/verstka_send_mail/static'
 
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
